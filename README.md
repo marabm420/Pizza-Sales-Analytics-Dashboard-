@@ -1,39 +1,53 @@
-# 🍕Pizza Sales Analytics
+# 🍕 PizzaStore Sales Analytics
 
-An end-to-end data analytics project designed to transform raw pizza sales data into meaningful business insights using Python, SQL, and Looker Studio.
+An end-to-end data analytics project that simulates and analyzes pizza sales data to uncover key business insights. This project demonstrates the full data analytics pipeline — from **data generation** to **visualization** — using Python, SQL, and Looker Studio.
 
-This project demonstrates my ability to design databases, analyze data, and build interactive dashboards — mirroring the complete workflow of a real-world data analytics project.
+# 🚀 Project Summary
 
-# 🚀Project Summary
+The Pizza Sales Analytics project showcases a complete analytics workflow:
 
-## The Pizza Sales Analytics project highlights a complete data analytics pipeline:
+### Data Generation (Python):
+Synthetic datasets were created to simulate pizza orders, customer behavior, product details, ingredient usage, and storage information.
 
-## Data Generation (Python):
-Created realistic, synthetic pizza sales data to simulate a restaurant’s order system, including customers, order details, and menu items.
+### Data Modeling (SQL + ERD):
+A relational database schema and Entity Relationship Diagram (ERD) were developed to structure sales, inventory, and cost data. This ensures accurate tracking of ingredient usage, storage, and cost impacts on profitability.
 
-## Data Modeling (SQL + ERD):
-Designed and implemented a relational database schema with an Entity Relationship Diagram (ERD) to define data relationships and structure.The model also incorporates ingredient inventory and cost tracking to enable detailed profit margin and supply chain analysis.
+### Data Analysis (SQL):
+SQL queries were used to uncover key performance metrics, including:
 
-## Data Analysis (SQL):
-Performed detailed SQL queries to uncover key performance indicators (KPIs) — top-selling items, order trends, and customer preferences.
+Sales trends by item type, category, and time period
 
-## Data Visualization (Looker Studio):
-Built an interactive dashboard to visualize performance metrics and insights in real time.
+Inventory usage and storage efficiency
 
-# 🧠 Key Insights
+Customer ordering patterns and revenue contribution
 
-🍕 Top Performers: Identified the highest-revenue item categories
+Data Visualization (Looker Studio):
+An interactive dashboard was created to visualize KPIs such as total revenue, high-margin products, top-selling items, inventory insights, and operational trends.
 
-🕒 Order Trends: Revealed peak order times of the day
+### 🧠 Key Insights
 
-🧂 Inventory Insights: Monitored ingredient usage patterns to optimize storage and reduce waste.
+🍕 Top Performers: Highest-revenue pizzas and categories identified.
 
-👥 Customer Behavior: Analyzed order frequency and spending patterns.
+🧂 Inventory & Cost: Ingredient usage tracked to optimize storage and reduce waste.
+
+💰 Profitability: Margins analyzed by integrating sales and ingredient cost data.
+
+🕒 Operational Trends: Peak order times.
+
+### ⚠️ Limitations & Future Improvements
+
+While the project demonstrates a complete end-to-end workflow, some simplifications were made:
+
+Ingredient Representation: Each pizza item is currently linked to a single ingredient ID. Future work could include multiple ingredients per pizza for more accurate cost and inventory analysis.
+
+Time Analysis: Sales trends were analyzed by time of day only. Extending analysis to include days of the week or months would provide richer operational insights.
+
+Additional Metrics: Advanced profitability metrics, customer segmentation, or predictive sales forecasting could further enhance the analysis.
 
 # 🛠️ Tools & Technologies
 Category	Tools Used
-Programming & Data:	Python, Pandas, NumPy
-Database & Querying:	MySQL 
-Data Modeling: Microsoft SQL Server Management Studio
-Visualization:	Looker Studio
-Other:	Excel, CSV, ERD Diagrams
+Programming:	Python, Pandas, NumPy
+Database & Querying:	Microsoft SQL Server (SSMS), SQL
+Data Modeling:	Microsoft SQL Server Management Studio (ERD & schema design)
+Visualization	Looker Studio
+Other	Excel, CSV, ERD Diagrams
